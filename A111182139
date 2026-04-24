@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人學修檔案 | NKUST</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Noto Sans TC', sans-serif; scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <!-- 導覽列 -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-4xl mx-auto px-4 py-3 flex justify-between items-center">
+            <span class="font-bold text-blue-700 text-lg">NKUST 學修檔案</span>
+            <div class="space-x-4">
+                <a href="#about" class="text-sm hover:text-blue-600">關於我</a>
+                <a href="#projects" class="text-sm hover:text-blue-600">作品展示</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 標題區塊 -->
+    <header class="bg-blue-700 text-white py-16 px-4 text-center">
+        <h1 class="text-3xl font-bold mb-2">我是 [你的姓名]</h1>
+        <p class="opacity-80">國立高雄科技大學 | [你的系級]</p>
+    </header>
+
+    <!-- 關於我 -->
+    <section id="about" class="max-w-3xl mx-auto py-12 px-4">
+        <h2 class="text-2xl font-bold mb-6 border-b-2 border-blue-700 inline-block text-blue-700">關於我</h2>
+        <div class="bg-white p-6 rounded-lg shadow">
+            <p class="leading-relaxed">
+                這裡請填寫你 Google Sites 上的自我介紹。例如：我目前就讀於高科大，這份學修檔案記錄了我的學習歷程與成果。
+            </p>
+        </div>
+    </section>
+
+    <!-- 作品/經歷 -->
+    <section id="projects" class="max-w-3xl mx-auto py-12 px-4">
+        <h2 class="text-2xl font-bold mb-6 border-b-2 border-blue-700 inline-block text-blue-700">作品展示</h2>
+        <div class="grid gap-6">
+            <!-- 作品 1 -->
+            <div class="bg-white p-6 rounded-lg shadow hover:shadow-md transition">
+                <h3 class="font-bold text-xl mb-2 text-blue-800">[專案名稱 1]</h3>
+                <p class="text-gray-600">描述：請從 Google Sites 複製對應的作品說明到這裡。</p>
+            </div>
+            <!-- 作品 2 -->
+            <div class="bg-white p-6 rounded-lg shadow hover:shadow-md transition">
+                <h3 class="font-bold text-xl mb-2 text-blue-800">[專案名稱 2]</h3>
+                <p class="text-gray-600">描述：如果你有更多作品，可以繼續增加這些方塊。</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-100 py-8 text-center text-gray-500 text-sm">
+        <p>© 2024 NKUST [你的學號] 學修檔案</p>
+    </footer>
+</body>
+</html>
